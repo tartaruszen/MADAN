@@ -1,6 +1,8 @@
 ## MADAN
+> Leonardo Gutiérrez-Gómez, Alexandre Bovet and Jean-Charles Delvenne<br>
+
 MADAN is the acronym of Multi-scale Anomaly Detection on Attributed Networks.
-This is an unsupervised algorithm allowing to detect anomalous nodes and their context at all scales of the network.
+This is an unsupervised algorithm allowing to detect anomalous nodes and their context at *all scales* of the network.
 
 <p align="center">
 <img src="figures/office.png">
@@ -10,8 +12,8 @@ This is an unsupervised algorithm allowing to detect anomalous nodes and their c
 
 
 Here you can find the code of the algorith with some examples implemented on our paper:
-***Multi-scale Anomaly Detection For Attributed Networks (MADAN algorithm), published at AAAI-20 conference.
-[Preprint](https://arxiv.org/abs/1912.04144)
+**_Multi-scale Anomaly Detection For Attributed Networks (MADAN algorithm), published at AAAI-20 conference.
+[Preprint.](https://arxiv.org/abs/1912.04144)_**
 
 
 Tested on Jupyter notebook 5.7.0 with Python 3.7.3
