@@ -1,9 +1,11 @@
 ## MADAN
 MADAN is the acronym of Multi-scale Anomaly Detection on Attributed Networks.
 This is an unsupervised algorithm allowing to detect anomalous nodes and their context at all scales of the network.
+
 <p align="center">
 <img src="figures/office.png">
 </p>
+
 ###### A toy example of work relation network. Nodes have  attributes  describing  individual  features.  Node  at-tributes define structural clusters in multiple scales. At the 1st scale outlier nodes (O1,O2,O3) lie within a local con-text, i.e, offices. In a 2nd scale, departments emerge as new contexts where O2 is not defined. Finally, at a larger scale O3 remains as a global anomaly in context of the whole company.
 
 
