@@ -1,7 +1,7 @@
 ## MADAN
 > Leonardo Gutiérrez-Gómez, Alexandre Bovet and Jean-Charles Delvenne<br>
 
-MADAN is the acronym of Multi-scale Anomaly Detection on Attributed Networks.
+MADAN is the acronym of **Multi-scale Anomaly Detection on Attributed Networks**.
 This is an unsupervised algorithm allowing to detect anomalous nodes and their context at *all scales* of the network.
 
 <p align="center">
