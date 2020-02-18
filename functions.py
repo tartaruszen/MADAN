@@ -7,6 +7,7 @@ from Nets import *
 import matplotlib as mpl
 import pandas as pd
 import pygsp
+from collections import Counter
 
 """
 @ Leonardo Gutiérrez-Gómez
@@ -41,26 +42,8 @@ def get_weigth_matrix_vectors(A,attrib_mat,sigma=1):
 	
 	return np.multiply(W_res,A)	
 
-
-def interpolate_comm(G,part):
-
-	new_part = np.zeros(G.order())
-	for node in G.nodes():
-		neigh_n =  list(G.neighbors(node))
-		res     =  dict(Counter(part[neigh_n]))
-		max_key =  max(res, key=lambda k: res[k])
-
-		new_part[node] = max_key
-
-	keys_comm = list(set(new_part))
-	vals_comm = range(0,len(keys_comm))
-	mapping = dict(zip(keys_comm, vals_comm))
-	interp_comm_ok = np.array([mapping[val] for val in new_part])
-	
-	return interp_comm_ok
-
 # Only interpolate anomalies
-def interpolate_comm2(G,part, true_nodes):
+def interpolate_comm(G,part, true_nodes):
 
 	new_part = part
 	for node in true_nodes:
@@ -79,6 +62,7 @@ def interpolate_comm2(G,part, true_nodes):
 	
 	return interp_comm_ok	
 	
+
 
 
 # Given a node id, return the attributes of all nodes of its community

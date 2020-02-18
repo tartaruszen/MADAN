@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""
+Created on Mon Apr  9 11:17:12 2018
+
+@author: alex
 
 """
-@ Alexandre Bovet
-alexandre.bovet@uclouvain.be
-"""
-
 
 from copy import deepcopy
 import numpy as np
