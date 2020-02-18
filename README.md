@@ -1,10 +1,19 @@
 ## MADAN
-MADAN is the acronym of Multi-scale Anomaly Detection on Attributed Networks.
-This is an unsupervised algorithm allowing to detect anomalous nodes and their context at all scales of the network.
+> Leonardo Gutiérrez-Gómez, Alexandre Bovet and Jean-Charles Delvenne<br>
+
+MADAN is the acronym of **Multi-scale Anomaly Detection on Attributed Networks**.
+This is an unsupervised algorithm allowing to detect anomalous nodes and their context at *all scales* of the network.
+
+<p align="center">
+<img src="figures/office.png">
+</p>
+
+###### Figure 1. A toy example of work relation network. Nodes have  attributes  describing  individual  features.  Node  at-tributes define structural clusters in multiple scales. At the 1st scale outlier nodes (O1,O2,O3) lie within a local con-text, i.e, offices. In a 2nd scale, departments emerge as new contexts where O2 is not defined. Finally, at a larger scale O3 remains as a global anomaly in context of the whole company.
+
 
 Here you can find the code of the algorith with some examples implemented on our paper:
-Multi-scale Anomaly Detection For Attributed Networks (MADAN algorithm), published at AAAI-20 conference.
-[Preprint](https://arxiv.org/abs/1912.04144)
+**_Multi-scale Anomaly Detection For Attributed Networks (MADAN algorithm), published at AAAI-20 conference.
+[Preprint.](https://arxiv.org/abs/1912.04144)_**
 
 
 Tested on Jupyter notebook 5.7.0 with Python 3.7.3
@@ -19,7 +28,7 @@ python setup.py build_ext --inplace
 
 #### Jupyter notebooks ######
 
-* Running MADAN algorithn on a toy example. (Figure 2 of the paper).
+* Running MADAN algorithn on a toy example network. (Figure 2 of the paper).
 
 ```
 toy_example.ipynb
@@ -70,3 +79,20 @@ This folder contains some *Matlab* figures of the scanning of relevant partition
 ```
 figures/
 ```
+
+
+### Citing
+If you find *MADAN* useful for your research, please consider citing the following paper:
+
+<!--
+	@inproceedings{madan-aaai20,
+	author = {Gutiérrez-Gómez Leonardo, Bovet Alexandre and Delvenne Jean-Charles},
+	 title = {Multi-scale Anomaly Detection on Attributed Networks},
+	 booktitle = {Proceedings of the 34th AAAI Conference on Artificial Intelligence (AAAI-20)},
+	 year = {2020}
+	}
+-->
+
+### Miscellaneous
+
+Please send any questions you might have about the code and/or the algorithm to <leonardo.gutierrez@list.lu>.
