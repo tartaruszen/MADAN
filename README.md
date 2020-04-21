@@ -13,7 +13,7 @@ This is an unsupervised algorithm allowing to detect anomalous nodes and their c
 
 Here you can find the code of the algorith with some examples implemented on our paper:
 **_Multi-scale Anomaly Detection For Attributed Networks (MADAN algorithm), published at AAAI-20 conference.
-[Preprint.](https://arxiv.org/abs/1912.04144)_**
+[Paper](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-GutierrezL.7044.pdf)_**
 
 
 Tested on Jupyter notebook 5.7.0 with Python 3.7.3
@@ -82,17 +82,15 @@ figures/
 
 
 ### Citing
-If you find *MADAN* useful for your research, please consider citing the following paper:
-
-<!--
-	@inproceedings{madan-aaai20,
-	author = {Gutiérrez-Gómez Leonardo, Bovet Alexandre and Delvenne Jean-Charles},
-	 title = {Multi-scale Anomaly Detection on Attributed Networks},
-	 booktitle = {Proceedings of the 34th AAAI Conference on Artificial Intelligence (AAAI-20)},
-	 year = {2020}
-	}
--->
-
+If you find *MADAN* useful for your research, please consider citing our following paper:
+```
+@inproceedings{madan-aaai20,
+author = {Gutiérrez-Gómez Leonardo, Bovet Alexandre and Delvenne Jean-Charles},
+ title = {Multi-scale Anomaly Detection on Attributed Networks},
+ booktitle = {Proceedings of the 34th AAAI Conference on Artificial Intelligence (AAAI-20)},
+ year = {2020}
+}
+```
 ### Miscellaneous
 
 Please send any questions you might have about the code and/or the algorithm to <leonardo.gutierrez@list.lu>.
