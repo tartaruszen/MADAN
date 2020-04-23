@@ -6,7 +6,7 @@ This is an unsupervised algorithm allowing to detect anomalous nodes and their c
 
 Here you can find the source code of our approach with some examples implemented on our paper:
 **_Multi-scale Anomaly Detection For Attributed Networks (MADAN algorithm), published at AAAI-20 conference.
-[Paper](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-GutierrezL.7044.pdf)_**
+[Paper.](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-GutierrezL.7044.pdf)_**
 
 
 <p align="center">
