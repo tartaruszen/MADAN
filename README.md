@@ -82,7 +82,7 @@ figures/
 
 
 ### Citing
-If you find *MADAN* useful for your research, please consider citing our following paper:
+If you find *MADAN* useful for your research, please consider citing our following paper. Bibtex:
 ```
 @inproceedings{madan-aaai20,
 author = {Gutiérrez-Gómez Leonardo, Bovet Alexandre and Delvenne Jean-Charles},
