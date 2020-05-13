@@ -64,7 +64,11 @@ python plot_scores.py
 ```
 python run_real_data.py
 ```
-    
+The other datasets can be found in the original source:
+
+* Amazon Books: https://www.ipd.kit.edu/~muellere/consub/RealData/AmazonFail.zip
+* Enron:        https://www.ipd.kit.edu/~muellere/consub/RealData/Enron.zip
+
 * Normalized variaiton of information  
 This script computes the variation of information V(t,t') (background of Figure 2 and 4), between optimal partitions at times t and t'.
 It allows to uncover the intrinsic scales having into account the graph structure and the node attributes.
